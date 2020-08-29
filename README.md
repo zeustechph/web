@@ -1,3 +1,2 @@
-# website
-Zeustech PH Website
+# Zeustech PH Website
 https://zeustechph.github.io/website/

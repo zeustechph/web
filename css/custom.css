@@ -6,3 +6,27 @@
     width: 100px;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    #about > div > div:last-child {
+        flex-direction: column-reverse;
+    }
+
+    #about > div > div:last-child > div:last-child > p:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .favicon {
+        width: 50px;
+    }
+
+    #careers form {
+        margin: 20px;
+    }
+}
